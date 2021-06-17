@@ -1,0 +1,266 @@
+    1  git config --globaluser.name Tammy Straker
+    2  git config --global user.email tam.straker@gmail.com
+    3  git config --list
+    4  git config --global user.name "Tammy Straker"
+    5  git config --list
+    6  exit
+    7  mkdir git-basic-exercises
+    8  cd git-basic-exercises
+    9  ls -a
+   10  git init
+   11  ls -a
+   12  git status
+   13  touch README.md
+   14  ls -a
+   15  git status
+   16  git log
+   17  git add README.md
+   18  git status
+   19  git reset -- README.md
+   20  git status
+   21  git add README.md
+   22  git status
+   23  git commit -m "initial coommit"
+   24  git commit --amend
+   25  git log
+   26  q
+   27  nano README.md
+   28  cat README.md
+   29  git status
+   30  git commit -a
+   31  /git commit -m "second commit"
+   32  nano README.md
+   33  cat README.md
+   34  git commit -m "third commit"
+   35  git add
+   36  git log
+   37  nano README.md
+   38  cat README.md
+   39  git add README.md
+   40  git commit -m "second commit"
+   41  nano RADME.md
+   42  nano README.md
+   43  git add README.md
+   44  git commit -m "third commit"
+   45  git log
+   46  q
+   47  y
+   48  gitlog
+   49  git log
+   50  git checkout
+   51  098dd75300196832cd01a036bcd42796d811c0a7
+   52  commit 098dd75300196832cd01a036bcd42796d811c0a7
+   53  pwd
+   54  rm -r git-basic-exercises
+   55  mkdir git0basic-exercises
+   56  cd git-basic-exercises
+   57  ls -a
+   58  git init
+   59  ls -a
+   60  git status
+   61  touvh README.md
+   62  rm -r git-basic-exercises 
+   63  mkdir git-basic-exercises
+   64  rm -r git-basicexercises
+   65  rm -r git-basic-exercises
+   66  mkdir git-basic-exercises
+   67  git branch -d git-basic-exercises
+   68  rm -r git-basic-exercises
+   69  mkdir git-basic-exercises
+   70  git rm -r git-basic-exercises
+   71  mkdir git-basic-exercises
+   72  git rm -r git-basic-exercises
+   73  cd git-basic-exercises
+   74  mkdir git-basic-exercises
+   75  mkdir git-basic-exercises
+   76  git rm -r git-basic-exercises
+   77  git rm git-basic-exercises
+   78  cd git-basic-exercises
+   79  rm -r git-basic-exercises
+   80  rm tst1.txt
+   81  git rm git-basic-exercises
+   82  rm git-basic-exercises
+   83  git rm -cached
+   84  git rm -r -cached
+   85  cat .git/config # note
+   86  rm -rf .git
+   87  mkdir git-basic-exercises
+   88  mkdir git-basic-exercises
+   89  git rm -r git-basic-exercises
+   90  cd git-basic-exercises
+   91  git rm git-basic-exercises
+   92  mkdir git-basic-exercises
+   93  git rm -r git-basic-exercises
+   94  git commit -m "Removed test directory"
+   95  git push origin git-basic-exercises
+   96  mkdir git-basic-exercises
+   97  cd git-basic-exercises
+   98  ls -a
+   99  git status
+  100  git log
+  101  mkdir git-basic-exercises
+  102  git rm git-basic-exercises
+  103  cd git-basic-exercises
+  104  git rm git-basic-exercises
+  105  git commit -m
+  106  cd git-basic-exercises
+  107  mkdir git-basic-exercises
+  108  cd git-basic-exercises
+  109  git rm gitbasic-exercises
+  110  git commit -m 
+  111  git commit -m git-basic-exercises
+  112  git-basic-exercises.gitignore
+  113  git-basic-exercises .gitignore
+  114  git rm git-basic-exercises
+  115  git commit --amend
+  116  mkdir git-basic-exercises
+  117  git rm --cahed git-basic-exercises
+  118  mkdir git-basic-exercises
+  119  git rm --cached git-basic-exercises
+  120  git commit --amend -CHEAD
+  121  git push
+  122  mkdir git-basic-exercises
+  123  git rm git-basic-exercises
+  124  cdgit-basic-exercises
+  125  cd git-basic-exercises
+  126  mkdir git-basic-exercises
+  127  cd git-basic-exercises
+  128  ls -a
+  129  git init
+  130  ls -a
+  131  touch README.md
+  132  ls -a
+  133  git status
+  134  git log
+  135  nano README.md
+  136  git checkout
+  137  098dd75300196832cd01a036bcd42796d811c0a7
+  138  git rm -r git-basic-exercises
+  139  git rm git-basic-exercises
+  140  rm -r git-basic-exercises
+  141  y
+  142  mkdir git-basic-exercises
+  143  git rm -r git-basic-exercises
+  144  git commit -m "Removed git-basic-exercises"
+  145  cd git-basic-exercises
+  146  git rm -r git-basic-exercises
+  147  git init
+  148  git rm -r git-basic-exercises
+  149  git commit -m "Removed git-basic-exercises"
+  150  q
+  151  cd git-basic-exercises
+  152  git log
+  153  git checkout history
+  154  git log
+  155  git checkout milkshake-flavours
+  156  git log
+  157  git remote add origin https://github.com/tamstraker/git-basic-exercises.git
+  158  git branch -M main
+  159  git push -u origin main
+  160  git branches
+  161  git push --all github
+  162  git push -u origin master
+  163  cd git-basic-exercises
+  164  git log
+  165  ls
+  166  echo "# git-basic-exercises" >> README.md
+  167  git init
+  168  git add README.md
+  169  git commit -m "first commit"
+  170  git branch -M main
+  171  git remote add origin https://github.com/tamstraker/git-basic-exercises.git
+  172  git push -u origin main
+  173  git push --all github
+  174  git remte add https://github.com/tamstraker/git-basic-exercises
+  175  git remote add https://github.com/tamstraker/git-basic-exercises
+  176  git remote add https://github.com/tamstraker/git-basic-exercises.git
+  177  git push origin master
+  178  cd git-basic-exercises
+  179  cd git-basic-exercises
+  180  ls
+  181  git look
+  182  cd git-basic-exercises
+  183  git checkout history
+  184  git log
+  185  git checkout milkshake-flavours
+  186  git branch
+  187  git branch -av
+  188  git fetch milkshake-flavours
+  189  git rm -r git-basic-exercises
+  190  git rm -r master
+  191  cd git-basic-exercises
+  192  rm -r git-basic-exercises
+  193  git rm -r --cached git-basic-exercises
+  194  git commit -m "Remove duplicate directory"
+  195  git push origin master
+  196  cd git-basic-exercises
+  197  cd git-basic-exercises
+  198  git rm -r --cached git-basic-exercises
+  199  git reset HEAD history
+  200  git rm --cached history
+  201  git rm --cached git-basic-exercises
+  202  cd git-basic-exercises
+  203  git log
+  204  git reset -- history
+  205  git reset
+  206  git log
+  207  git commit -m
+  208  rm -r git-basic-exercises
+  209  rm -r git-basic-exercises
+  210  rm -r git-basic-exercises
+  211  rm -r git-basic-exercises
+  212  mkdir git-basic-exercises
+  213  cd git-basic-exercises
+  214  ls -a
+  215  git init
+  216  ls -a
+  217  git status
+  218  touch README.md
+  219  ls -a
+  220  git status
+  221  git log
+  222  git add README.md
+  223  git status
+  224  git reset -- README.md
+  225  git status
+  226  git add README.md
+  227  git status
+  228  git commit -m "initial commit"
+  229  git log
+  230  nano README.md
+  231  cat README.md
+  232  git add README.md
+  233  git status
+  234  git commit -m "second commit"
+  235  nano README.md
+  236  git add README.md
+  237  git commit -m "third commit"
+  238  git status
+  239  git log
+  240  git checkout
+  241  64205507e78ab9036ebc0115a87cf98701da7ee7
+  242  git checkout 64205507e78ab9036ebc0115a87cf98701da7ee7
+  243  cat README.md
+  244  git checkout master
+  245  cat README.md
+  246  git branch milkshake.flavours
+  247  git branch
+  248  git checkout milkshake-flavours
+  249  mv milkshake.flavours milkshake-flavours
+  250  git branch
+  251  mv milkshake.flavours milkshake-flavours
+  252  mv milkshake.flavours new_milkshake-flavours
+  253  git checkout milkshake.flavours
+  254  git branch -m milkshake-flavours
+  255  git branch
+  256  nano milkshakes.md
+  257  git status
+  258  git add milkshakes.md
+  259  git commit -m "added intial flavours"
+  260  git log
+  261  git checkout master
+  262  git branch history
+  263  git checkout history
+  264  git log
+  265  git branch
+  266  history > history.txt
